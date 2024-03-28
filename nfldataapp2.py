@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-df = pd.read_csv()
+df = pd.read_csv(.\passing_cleaned.csv)
 
 df.drop(columns='Unnamed: 0', inplace=True)
 
